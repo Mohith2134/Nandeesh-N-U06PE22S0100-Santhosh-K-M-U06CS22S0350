@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NANDI Hotel</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: times new roman;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: red;
+        }
+        .logo span {
+            color: black;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+            padding: 0;
+            margin: 0;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+        nav ul li a.active,
+        nav ul li a:hover {
+            color: red;
+        }
+        .contact-btn {
+            border: 2px solid orange;
+            padding: 5px 10px;
+            border-radius: 5px;
+            background-color: red;
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+            cursor: pointer;
+        }
+        .contact-btn:hover {
+            background-color: darkred;
+        }
+        .hero {
+            position: relative;
+            background: url('133841882292867093.jpg') no-repeat center center/cover;
+            height: 80vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: green;
+        }
+        .hero h1 {
+            font-size: 50px;
+            font-weight: bold;
+            background-color: black;
+            padding: 10px;
+        }
+        .hero1 h1 {
+            font-size: 50px;
+            font-weight: bold;
+            background-color: black;
+            color: white;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+            padding: 10px;
+        }
+        .special-offer {
+            background-color: white;
+            width: 80%;
+            margin: 5px auto;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
+            display: flex;
+            align-items: center;
+        }
+        .offer-img {
+            width: 20%;
+            border-radius: 10px;
+        }
+        .offer-content {
+            padding: 10px;
+            width: 80%;
+        }
+        .offer-content h2 {
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+        .offer-content p {
+            font-size: 18px;
+            color: #555;
+        }
+        .container {
+            display: flex;
+            max-width: 900px;
+            background: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            overflow: hidden;
+            margin: 20px auto;
+        }
+        .image-section {
+            flex: 1;
+            background: url('133841882292867093.jpg') no-repeat center center/cover;
+            height: 400px;
+        }
+        .content-section {
+            flex: 1;
+	    padding: 100px;
+        }
+        .content-section h1 {
+            font-size: 32px;
+	    text-align:center;
+        }
+        .content-section p {
+            font-size: 16px;
+            color: #333;
+        }
+        .main-btn {
+            background: red;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            font-size: 18px;
+            border-radius: 5px;
+        }
+        .main-btn:hover {
+            background: darkred;
+        }
+        .db2667349-top,
+        .db2667349-bottom {
+            padding: 20px;
+            min-height: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .db2667349-top {
+            background: lightblue;
+        }
+        .db2667349-bottom {
+            background: lightcoral;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            transition: transform 0.5s ease-in-out;
+        }
+        .content ul {
+            list-style: none;
+            padding: 0;
+        }
+        .content ul li {
+            margin: 10px 0;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">SRI<span>Hotel</span></div>
+<img src=".jpg">
+        <nav>
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="aboutt.html">About</a></li>
+                <li><a href="#">Restaurant</a></li>
+                <li><a href="#" class="contact-btn">Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>SRI HOTEL</h1>
+    </section>
+
+    <section class="content">
+        <h1>About</h1>
+        <h2>Hotel Amenities</h2>
+        <ul>
+            <li>1. Wi-Fi: Internet access for guests.</li>
+            <li>2. Fitness Center: Gym and exercise facilities.</li>
+            <li>3. Pool: Swimming pool for relaxation.</li>
+            <li>4. Restaurant: On-site dining options.</li>
+        </ul>
+    </section>
+
+    <div class="container">
+        <div class="image-section"></div>
+        <div class="content-section">
+            <img src="133850567426834533.jpg" alt="Room Image">
+            <h1>Rooms</h1>
+            <p>Single Room: Designed for one occupant, typically with a double or queen-size bed.</p>
+            <p>Double Room: A room for two people, often with two full-size beds or a king/queen-size bed.</p>
+            <p>Twin Room: A room with two twin beds, ideal for friends or colleagues sharing.</p>
+            <p>Deluxe Room: An upgraded room with better amenities, such as a larger bed and an en-suite bathroom.</p>
+            <p>Suite: A larger room with separate living and sleeping areas, often featuring a kitchenette and additional amenities.</p>
+            <p>Executive Room: Designed for business travelers, typically with a larger desk and extra amenities.</p>
+            <p>Accessible Room: Rooms designed for guests with disabilities, featuring wheelchair ramps and grab bars.</p>
+            <button class="main-btn">Contacts</button>
+        </div>
+    </div>
+
+    <section class="contact">
+        <div class="container"><center>
+           <h2>Contact Us</h2>
+            <p>We'd love to hear from you! Feel free to reach out.</p></center>
+           <center> <div class="contact-info">
+                <div>
+                    <h3>📍 Address</h3>
+                    <p>123 NANDI Street, Karnataka</p>
+                </div>
+                <div>
+                    <h3>📞 Phone</h3>
+                    <p>91 9944668822</p>
+                </div>
+                <div>
+                    <h3>📧 Email</h3>
+                    <p>info@nandihotel.com</p>
+                </div>
+            </div></center>
+            <form action="submit-form.php" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+            <div class="map">
+                <img src="133850567426834533.jpg" width="100%" height="300" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+    <div class="hero1">
+        <h1>Restaurant</h1>
+    </div>
+
+    <div class="container">
+        <img src="WCMSIMM.jpg" alt="Restaurant Image">
+    </div>
+
+    <section class="special-offer">
+        <div class="offer-content">
+            <h2>Special Offer</h2>
+            <p><strong>International Cuisine</strong></p>
+            <p>Italian: Pizza, pasta, risotto, gelato.</p>
+            <p>--------</p>
+            <p>Menu: A list of food and beverage options.</p>
+            <p>Ambiance: The atmosphere and decor of the restaurant.</p>
+            <p>Service: The quality of service provided by staff.</p>
+            <p>Reservations: The option to book a table in advance.</p>
+            <p>Delivery/Takeout: The option to order food for delivery or pickup.</p>
+        </div>
+    </section>
+
+    <div class="db2667349-top"></div>
+
+    <div class="container">
+        <div class="db2667349-bottom">
+            <img src="WCMSIMM2.jpg" alt="Offer Image 1">
+        </div>
+    </div>
+    <div class="container">
+        <div class="db2667349-bottom">
+            <img src="WCMSIMM3.jpg" alt="Offer Image 2">
+        </div>
+    </div>
+    <div class="container">
+        <div class="db2667349-bottom">
+            <img src="WCMSIMM4.jpg" alt="Offer Image 3">
+        </div>
+    </div>
+    <div class="container">
+        <div class="db2667349-bottom">
+            <img src="WCMSIMM.jpg" alt="Offer Image 4">
+        </div>
+    </div>
+
+    <script>
+        window.addEventListener("DOMContentLoaded", function() {
+            var elem = document.getElementById("movableImage");
+            if (elem) {
+                var topElem = document.querySelector(".db2667349-top");
+                if (topElem) {
+                    topElem.appendChild(elem);
+                    elem.style.transform = "scale(1.1)";
+                }
+            }
+        });
+    </script>
+</body>
+</html>
